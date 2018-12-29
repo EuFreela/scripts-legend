@@ -19,10 +19,16 @@ def banner():
 def ntulp():
     r = commands.getoutput("netstat -ntulp")
     x = commands.getoutput("netstat -atulp ")
-    print "\n\n========================================================================"
+    s = commands.getoutput("netstat -tunp|grep 'ESTABELECIDA'")
+    if not s:
+        s = commands.getoutput("netstat -tunp|grep 'ESTABLISHED'")
+    print "========================================================================"
+    print "\n -----------------------ntulp all.."
     print r
-    print "\n"
+    print "\n -----------------------atulp all.."
     print x
+    print "\n ----------Conexoes estabelecidas.."
+    print s
     print "========================================================================"
 
     
@@ -59,5 +65,7 @@ print y
 print "\n"
 
 print "Chat on "+ip+" "+port
-print ("Policia Juduciaria Federal!")
+print "Policia Judiciaria Federal!"
 print commands.getoutput("nc "+ip+" "+port)
+
+
