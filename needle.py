@@ -14,7 +14,7 @@ def banner():
     print "|       lll  eeeee      gg  eeeee nn   nn  dddddd     s                |"
     print "|                   ggggg                          sss                 |"
     print "========================================================================"
-    print "                                                             Needle v0.7"
+    print "                                                      Needle Revamp v0.8"
     print "                                                                  Netcat"
 
 def connect():
