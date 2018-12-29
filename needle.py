@@ -44,7 +44,7 @@ connect()
 print "----------------------------------------"
 
 if success:
-    print "Sucesso, ports to conection.."
+    print "Success, ports to conection.."
     print success
 else:    
     print '\n Sorry, close ports :( \n'
