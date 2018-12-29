@@ -7,9 +7,8 @@ lll ee   e gg   gg ee   e nnn  nn  dddddd s
 lll eeeee  ggggggg eeeee  nn   nn dd   dd  sss 
 lll  eeeee      gg  eeeee nn   nn  dddddd     s
             ggggg                          sss 
-
-                                     Spook v0.7
-                                        Netstat
+                                        
+                                        Tools
 </pre>
 
 <p><b>Needler:</b> conexões</p>
