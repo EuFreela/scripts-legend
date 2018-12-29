@@ -18,8 +18,11 @@ def banner():
     
 def ntulp():
     r = commands.getoutput("netstat -ntulp")
+    x = commands.getoutput("netstat -atulp ")
     print "\n\n========================================================================"
     print r
+    print "\n"
+    print x
     print "========================================================================"
 
     
@@ -55,9 +58,5 @@ print y
 print "\n"
 
 print "Chat on "+ip+" "+port
-msgDefault = "Policia Juduciaria Federal! Tire as maos do teclado. Voce tem direito a um advogado pela assistencia juridica gratuita. Qualque coisa que venha a digitar apos o aviso pode ser usado contra voce no tribunal."
-print (msgDefault)
+print ("Policia Juduciaria Federal!")
 print commands.getoutput("nc "+ip+" "+port)
-
-
-
