@@ -29,6 +29,7 @@ def ntulp():
     
 os.system("clear")
 banner()
+print ('Wait..')
 ntulp()
 
 print ("\nDefine port for anp ::")
