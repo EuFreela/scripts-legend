@@ -55,7 +55,8 @@ print y
 print "\n"
 
 print "Chat on "+ip+" "+port
-print "..."
+msgDefault = "Policia Juduciaria Federal! Tire as maos do teclado. Voce tem direito a um advogado pela assistencia juridica gratuita. Qualque coisa que venha a digitar apos o aviso pode ser usado contra voce no tribunal."
+print (msgDefault)
 print commands.getoutput("nc "+ip+" "+port)
 
 
