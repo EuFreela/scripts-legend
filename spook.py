@@ -68,4 +68,4 @@ print "Chat on "+ip+" "+port
 print "Policia Judiciaria Federal!"
 print commands.getoutput("nc "+ip+" "+port)
 
-
+#sudo netstat -anp | grep ':55681' | grep ESTABELECIDA | awk '{print $7}' | cut -d \/ -f1 | grep -oE "[[:digit:]]{1,}" | xargs kill
